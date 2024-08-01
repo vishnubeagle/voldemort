@@ -1,0 +1,26 @@
+{
+  "name": "threejs-webxr-hands-example",
+  "version": "1.0.0",
+  "description": "Simple example of hand tracking and gesture recognition using Three.js and WebXR.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -o",
+    "serve-ssl": "http-server -S -C cert.pem",
+    "build": "vite build",
+    "dev":"vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "three": "^0.167.0",
+    "vite": "^5.3.5"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/three": "^0.167.1",
+    "vite-plugin-mkcert": "^1.17.5",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
